@@ -7,8 +7,18 @@
   "author": "Alfredo Poveda <alfpovsistemas@gmail.com>",
   "license": "MIT",
   "private": false,
+  "standard": {
+    "ignore": [
+      "src/**/*.test.js"
+    ],
+    "globals": [
+      "describe",
+      "it"
+    ]
+  },
   "scripts": {
-    "start:dev": "node ./src/main.js"
+    "start:dev": "node ./src/main.js",
+    "format": "standard --fix src/**/*.js"
   },
   "devDependencies": {
     "chai": "^4.3.4",
