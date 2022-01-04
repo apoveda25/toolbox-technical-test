@@ -17,7 +17,7 @@
     ]
   },
   "scripts": {
-    "start:dev": "node ./src/main.js",
+    "start": "node ./src/main.js",
     "test": "mocha",
     "format": "standard --fix src/**/*.js"
   },
