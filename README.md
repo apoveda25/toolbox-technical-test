@@ -2,4 +2,4 @@
 > Run project
 > 
 > * `docker-compose up -d`
-> * Open [localhost](http://localhost:3000)
+> * Open [http://localhost:4000](http://localhost:4000)
